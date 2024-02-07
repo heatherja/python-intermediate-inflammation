@@ -19,16 +19,46 @@ def load_csv(filename):
 
 
 def daily_mean(data):
-    """Calculate the daily mean of a 2D inflammation data array."""
+    """Calculates the mean of axis 0 of an input data array.
+    Parameters
+    ----------
+    data: numpy array
+        input array that want mean taken over
+ 
+    Returns
+    -------
+    not assigned to variable: numpy array
+        mean over axis 0
+    """
     return np.mean(data, axis=0)
 
 
 def daily_max(data):
-    """Calculate the daily max of a 2D inflammation data array."""
+    """Calculates the max of axis 0 of an input data array.
+    Parameters
+    ----------
+    data: numpy array
+        input array that want max taken over
+ 
+    Returns
+    -------
+    not assigned to variable: numpy array
+        max over axis 0
+    """
     return np.max(data, axis=0)
 
 
 def daily_min(data):
-    """Calculate the daily min of a 2D inflammation data array."""
+    """Calculates the min of axis 0 of an input data array.
+    Parameters
+    ----------
+    data: numpy array
+        input array that want max taken over
+ 
+    Returns
+    -------
+    not assigned to variable: numpy array
+        min over axis 0
+    """
     return np.min(data, axis=0)
 
