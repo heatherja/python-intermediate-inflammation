@@ -65,6 +65,7 @@ comm                      0.1.2           py310h06a4308_0
 constantly                23.10.4         py310h06a4308_0  
 contourpy                 1.2.0           py310hdb19cb5_0  
 cookiecutter              2.5.0           py310h06a4308_0  
+coverage                  7.2.2           py310h5eee18b_0  
 cryptography              41.0.3          py310h130f0dd_0  
 cssselect                 1.1.0              pyhd3eb1b0_0  
 curl                      8.2.1                h37d81fd_0  
@@ -321,6 +322,7 @@ pyqtwebengine             5.15.10         py310h6a678d5_0
 pysocks                   1.7.1           py310h06a4308_0  
 pytables                  3.9.2           py310h0016290_0  
 pytest                    7.4.0           py310h06a4308_0  
+pytest-cov                4.1.0           py310h06a4308_1  
 python                    3.10.6               haa1d7c7_1  
 python-dateutil           2.8.2              pyhd3eb1b0_0  
 python-fastjsonschema     2.16.2          py310h06a4308_0  
