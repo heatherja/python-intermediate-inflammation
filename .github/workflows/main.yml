@@ -30,6 +30,10 @@ jobs:
         environment-file: environment.yml
         auto-activate-base: false
 
+    - name: see content of conda environment
+      run: |
+        conda list
+
     #set up python
     - name: Set up python local version 
       uses: actions/setup-python@v4
