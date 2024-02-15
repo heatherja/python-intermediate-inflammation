@@ -4,6 +4,8 @@ channels:
 dependencies:
   - python=3.10.6
   - anaconda
-  - pytest
   - pytest-cov
+  - pip
+  - pip:
+      - -r requirements.txt
 prefix: /home/handres/tools/miniconda/3/amd64/envs/software_carpentry
