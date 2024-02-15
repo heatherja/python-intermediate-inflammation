@@ -52,3 +52,7 @@ jobs:
     - name: Test w/ pytest
       run: |
         python3 -m pytest --cov=inflammation.models tests/test_models.py 
+
+    - name: check style w/ Pylint
+      run: |
+        python3 -m pylint --fail-under=0 --reports=y inflammation
