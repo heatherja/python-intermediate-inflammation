@@ -34,6 +34,7 @@ def main(args):
             observations = [classes.Observation(day,value) for day,value in enumerate(patient_data)]
             patient = classes.Patient('UNKNOWN',observations)
 
+
             views.display_patient_record(patient)
 
 if __name__ == "__main__":
